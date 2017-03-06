@@ -1,0 +1,102 @@
+body {
+
+    background-color: black;
+    color: white;
+}
+
+.submit {
+
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    overflow-wrap: normal;
+    direction: ltr;
+    -moz-font-feature-settings: 'liga';
+    font-feature-settings: "liga";
+    -moz-osx-font-smoothing: grayscale;
+
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 28px;
+    position: absolute;
+    left: 51%;
+    padding: 0% 1% 0% 1%;
+    cursor: pointer;
+}
+
+h1 {
+    font-family: 'Anton', serif;
+    font-size: 300%;
+    text-transform: capitalize;
+}
+
+h2 {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.searchbox input {
+
+    border-color: white;
+    border-width: 2px;
+    background-color: black;
+    color: white;
+    border-radius: 5%;
+    right: 50%;
+    margin: auto;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 110%;
+    position: absolute;
+}
+
+button {
+
+    position: absolute;
+    left: 51%;
+    top: 50%;
+}
+
+ .searchbox {
+
+    position: relative;
+    margin-bottom: 20%;
+ }
+
+
+ .wikiCard {
+
+    /*text-align: center;*/
+    padding: 5px 50px 25px 50px;
+    background-color: white;
+    color: black;
+    margin: 0% 20% 1% 20%;
+ }
+
+ #divLinks {
+
+    position: absolute;
+    top: 70px;
+ }
+
+#random {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 22px;
+    position: absolute;
+    left: 56%;
+    padding: 0% 1% 0% 1%;
+    cursor: pointer;
+    margin:auto;
+}
